@@ -1,0 +1,65 @@
+.gptube-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 16px;
+}
+
+/* 검색 입력창과 검색 버튼을 감싸는 컨테이너 */
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 8px; /* 입력창 오른쪽 마진을 줄입니다. */
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.circle-loader-progress {
+  animation: spin 1s linear infinite;
+}
+.singleLineImageContainer {
+  display: flex;
+  width: 100%;
+  background: #899;
+  overflow: auto;
+}
+.image {
+  background-color: #fff;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 50px;
+}
