@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     OPENAI_API_KEY: str
     TTS_CLIENT_ID: str
     TTS_CLIENT_SECRET: str
+    STOCK_VIDEO_API_KEY: str
 
     class Config:
         env_file = ".env"

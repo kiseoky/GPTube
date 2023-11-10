@@ -27,3 +27,5 @@ yarn-error.log*
 server/static
 server/venv
 .env
+server/__pycache__/*
+.idea/*

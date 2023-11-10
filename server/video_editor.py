@@ -6,7 +6,6 @@ import models
 from config import settings
 
 from video_maker import (
-    add_static_image_to_audio,
     split_string,
     composite_videos,
     create_speech_from_text,
@@ -60,12 +59,12 @@ def apply_change_to_video(uuid, index, db):
     n = len(messages)
     audio_paths = [f"static/{uuid}/{index}-output{i}.mp3" for i in range(n)]
     output_path = f"static/{uuid}/output{index}.ts"
-    add_static_image_to_audio(
-        messages=messages,
-        image_path=f"static/{uuid}/img{index}.png",
-        audio_paths=audio_paths,
-        output_path=output_path,
-    )
+    # add_static_image_to_audio(
+    #     messages=messages,
+    #     image_path=f"static/{uuid}/img{index}.png",
+    #     audio_paths=audio_paths,
+    #     output_path=output_path,
+    # )
 
 
 def edit_image(uuid: str, index: int, url: str, db):

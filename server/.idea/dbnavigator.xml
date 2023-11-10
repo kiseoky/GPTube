@@ -20,9 +20,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="1bb52262-c7f1-4edc-a872-6164ace9beb6" object-ref="schemas/sql_app/tables/sub_videos" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="1bb52262-c7f1-4edc-a872-6164ace9beb6" dataset="sql_app.sub_videos" active-filter-id="" />
